@@ -4,8 +4,10 @@ This project is the code for a fullstack software developer coding challenge on 
 ## Build the backend
 If you've already MySQL installed, create a database with a name that you cannot forget. Then, follow these steps:
 - From the project directory, go to **server** directory.
+- In that directory, create a file named **.env** and copy paste the content of **.env.example** file into it.
+- Just edit the params with the name of the created database, the user and password you're using with MySQL, the host you're using (localhost if it is a local machine) and the database type (mysql for instance).
 - Run the command **npm install**.
-- Edit the 
+- Run the command **node index.js** to start the backend.
 
 ## Build the frontend
 For build and run the frontend, you should:
